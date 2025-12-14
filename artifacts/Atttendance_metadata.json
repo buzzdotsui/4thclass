@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "classNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAttendance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class.sol": "Atttendance"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class.sol": {
+			"keccak256": "0xdf5f81dd779c06bdc0b701b0de595a1ebc15f63c41d4d844772d54a9d06e3078",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9267d0f4576700a6f4f08033075ff1a61cc457bb03930444c232e21f2789af4d",
+				"dweb:/ipfs/QmfDFZWnLbMV5j3SsGb8fhMKmAbgQQKHGJQe9V5CpFL3W7"
+			]
+		}
+	},
+	"version": 1
+}

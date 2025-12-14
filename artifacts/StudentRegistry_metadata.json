@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSchoolName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_schoolname",
+						"type": "string"
+					}
+				],
+				"name": "setSchoolName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudentRegistery.sol": "StudentRegistry"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudentRegistery.sol": {
+			"keccak256": "0x72dbd2b2e918b5e5e02712cc70eebe1183193dcd5a1040b5d7ab1a712a12b437",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74e76115839ab884922e33b0fd5a390d8144f9b306328fa854d8a78c49186946",
+				"dweb:/ipfs/QmUsH3E3pM4ULP4KQjxwicu1gCq8usgGA7eh8hcmQN6zYQ"
+			]
+		}
+	},
+	"version": 1
+}
