@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_walletaddress",
+						"type": "address"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalperson",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "registeryList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "walletaddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4thclass.sol": "userRegistry"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4thclass.sol": {
+			"keccak256": "0xf17b4080b4af41119c6d4d51d62e9b5a10ff29443a498dc9eac758f112ed6460",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72c370fae96d2bc5505262fbdc27a28ca7c5cbc7f61874f9fc5e3ae997a1b310",
+				"dweb:/ipfs/QmNko3dkDSUU7gKsVJfPKEsZ8KttJmGJqknv8TwvWBDZvQ"
+			]
+		}
+	},
+	"version": 1
+}
