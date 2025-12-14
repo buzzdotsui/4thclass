@@ -7,5 +7,5 @@ contract Registration{
     address id;
     string name;
 }
-k
+
 }
